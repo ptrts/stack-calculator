@@ -1,5 +1,7 @@
 package com.suchorukov.tarouts.calc;
 
+import com.suchorukov.tarouts.calc.commands.*;
+
 import java.io.InputStream;
 import java.util.*;
 
@@ -11,9 +13,9 @@ import java.util.*;
  * To change this template use File | Settings | File Templates.
  */
 public class Environment {
-    public Map<String, Float> map;
+    public Map<String, Double> map;
     public Scanner scanner;
-	public Stack stack;
+	public Stack<Double> stack;
 
 	private Map<String, Command> commands;
 
@@ -26,5 +28,14 @@ public class Environment {
         stack = new Stack();
 		commands = new HashMap<>();
 		this.scanner = new Scanner(in);
+
+		registerCommand(new Add());
+		registerCommand(new Define());
+		registerCommand(new Div());
+		registerCommand(new Mul());
+		registerCommand(new Print());
+		registerCommand(new Push());
+		registerCommand(new Sqrt());
+		registerCommand(new Sub());
     }
 }

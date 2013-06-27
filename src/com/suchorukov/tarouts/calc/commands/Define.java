@@ -16,6 +16,6 @@ public class Define extends Command {
 
 	@Override
     public void execute(Environment env) {
-        env.map.put(next(env), nextFloat(env));
+        env.map.put(next(env), nextDouble(env));
     }
 }

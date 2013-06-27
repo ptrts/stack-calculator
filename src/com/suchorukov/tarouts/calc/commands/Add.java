@@ -1,5 +1,6 @@
 package com.suchorukov.tarouts.calc.commands;
 
+import com.suchorukov.tarouts.calc.BinaryCommand;
 import com.suchorukov.tarouts.calc.Command;
 import com.suchorukov.tarouts.calc.Environment;
 
@@ -10,12 +11,12 @@ import com.suchorukov.tarouts.calc.Environment;
  * Time: 21:05
  * To change this template use File | Settings | File Templates.
  */
-public class Add extends Command {
+public class Add extends BinaryCommand {
 
-	public String mnemonic = "ADD";
+	public String mnemonic = "+";
 
 	@Override
-    public void execute(Environment env) {
-		env.stack.push(env.stack.pop() + env.stack.pop());
+    public Double calculate(Double arg1, Double arg2) {
+		return arg1 + arg2;
     }
 }

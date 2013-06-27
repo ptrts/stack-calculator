@@ -16,6 +16,6 @@ public class Push extends Command {
 
 	@Override
     public void execute(Environment env) {
-		env.stack.push(nextFloat(env));
+		env.stack.push(nextDouble(env));
     }
 }
