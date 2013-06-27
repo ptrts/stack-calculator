@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/BinaryCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Div.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Mul.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Sqrt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Sub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Add.java" afterPath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Add.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Calc.java" afterPath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Calc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Command.java" afterPath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Command.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Define.java" afterPath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Define.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Environment.java" afterPath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Environment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Push.java" afterPath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Push.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="calc.iws" />
@@ -24,7 +13,7 @@
     <file path="/Environment.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372318868250" ignored="false" />
     <file path="/Push.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372306094278" ignored="false" />
     <file path="/Print.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372305254785" ignored="false" />
-    <file path="/Dummy.txt" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372317012303" ignored="false" />
+    <file path="/Dummy.txt" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372321323868" ignored="false" />
     <file path="$PROJECT_DIR$/../Hello/src/com/suchorukov/tarouts/hello/Hello.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372302637058" ignored="false" />
     <file path="/a.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372302553079" ignored="false" />
     <file path="/sample.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372302546568" ignored="false" />
@@ -41,6 +30,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -48,6 +42,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -84,7 +79,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -94,33 +88,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BinaryCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/BinaryCommand.java">
+      <file leaf-file-name="Add.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Add.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="4" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+            <state line="13" column="30" selection-start="372" selection-end="372" vertical-scroll-proportion="0.3090909">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Add.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Add.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Environment.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Environment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Environment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="16" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,26 +110,6 @@
         <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Define.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="40" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Div.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Div.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="31" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mul.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Mul.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="31" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,7 +127,7 @@
       <file leaf-file-name="Push.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Push.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="32" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+            <state line="17" column="20" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,21 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sqrt.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Sqrt.java">
+      <file leaf-file-name="Command.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sub.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Sub.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
+            <state line="35" column="8" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -235,7 +185,7 @@
     <option name="x" value="-4" />
     <option name="y" value="-4" />
     <option name="width" value="1288" />
-    <option name="height" value="1002" />
+    <option name="height" value="1004" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -300,7 +250,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -376,6 +325,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,7 +336,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hello" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -565,10 +515,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="1002" extended-state="6" />
+    <frame x="-4" y="-4" width="1288" height="1004" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26627907" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26627907" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -576,17 +526,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2504052" sideWeight="0.60046726" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2504052" sideWeight="0.73372096" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -658,63 +608,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Environment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Calc.java">
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Add.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/GlassFish Server 3/jdk7/jre/lib/rt.jar!/java/util/Stack.class">
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Environment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.10191847">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Command.java">
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Define.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="8" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+        <state line="18" column="40" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/BinaryCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Print.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Sub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Sqrt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,43 +645,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Print.java">
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+        <state line="28" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Mul.java">
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Environment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
+        <state line="16" column="11" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Div.java">
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Calc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Define.java">
+    <entry file="jar://C:/Program Files/GlassFish Server 3/jdk7/jre/lib/rt.jar!/java/util/Stack.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="40" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.10191847" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Calc.java">
@@ -773,12 +678,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Environment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Define.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+        <state line="18" column="40" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Push.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="8" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="372" selection-end="372" vertical-scroll-proportion="0.3090909">
+          <folding />
         </state>
       </provider>
     </entry>
