@@ -1,9 +1,7 @@
 package com.suchorukov.tarouts.calc;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.InputStream;
+import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,9 +12,19 @@ import java.util.Map;
  */
 public class Environment {
     public Map<String, Float> map;
-    public List<Float> stack;
-    public Environment() {
+    public Scanner scanner;
+	public Stack stack;
+
+	private Map<String, Command> commands;
+
+	public void registerCommand(Command command) {
+		commands.put(command.mnemonic, command);
+	}
+
+    public Environment(InputStream in) {
         map = new HashMap<>();
-        stack = new ArrayList<>();
+        stack = new Stack();
+		commands = new HashMap<>();
+		this.scanner = new Scanner(in);
     }
 }

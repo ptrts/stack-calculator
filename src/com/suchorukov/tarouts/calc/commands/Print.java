@@ -11,11 +11,11 @@ import com.suchorukov.tarouts.calc.Environment;
  * To change this template use File | Settings | File Templates.
  */
 public class Print extends Command {
-    @Override
+
+	public String mnemonic = "PRINT";
+
+	@Override
     public void execute(Environment env) {
-        int i = env.stack.size() - 1;
-        Float f = env.stack.get(i);
-        env.stack.remove(i);
-        System.out.println(f);
+        System.out.println(env.stack.pop());
     }
 }

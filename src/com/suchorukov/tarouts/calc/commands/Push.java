@@ -11,8 +11,11 @@ import com.suchorukov.tarouts.calc.Environment;
  * To change this template use File | Settings | File Templates.
  */
 public class Push extends Command {
-    @Override
-    public void execute(Environment env, String arg1) {
-        env.stack.add(decode(env, arg1));
+
+	public String mnemonic = "PUSH";
+
+	@Override
+    public void execute(Environment env) {
+		env.stack.push(nextFloat(env));
     }
 }

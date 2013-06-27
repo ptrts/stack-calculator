@@ -11,6 +11,8 @@ import java.util.List;
  */
 public abstract class Command {
 
+	public String mnemonic = "";
+
     public static Float decode(Environment env, String str) {
         Float f = env.map.get(str);
 
@@ -21,17 +23,17 @@ public abstract class Command {
         }
     }
 
+	public static Float nextFloat(Environment env) {
+		String arg = env.scanner.next();
+		return decode(env, arg);
+	}
+
+	public static String next(Environment env) {
+		return env.scanner.next();
+	}
+
     public void execute(Environment env) {
 
     }
-    public void execute(Environment env, String arg1) {
 
-    }
-    public void execute(Environment env, String arg1, String arg2) {
-
-    }
-
-    public void getParameters() {
-
-    }
 }

@@ -14,16 +14,7 @@ import java.util.Map;
  */
 public class Calc {
 
-
-
-
     public static void main(String[] args) {
-        Environment env = new Environment();
-
-
-
+        Environment env = new Environment(System.in);
     }
-
-
-
 }

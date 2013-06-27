@@ -12,19 +12,10 @@ import com.suchorukov.tarouts.calc.Environment;
  */
 public class Add extends Command {
 
-    @Override
+	public String mnemonic = "ADD";
+
+	@Override
     public void execute(Environment env) {
-
+		env.stack.push(env.stack.pop() + env.stack.pop());
     }
-
-    @Override
-    public void execute(Environment env, String arg1) {
-
-    }
-
-    @Override
-    public void execute(Environment env, String arg1, String arg2) {
-
-    }
-
 }

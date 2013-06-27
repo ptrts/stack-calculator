@@ -11,8 +11,11 @@ import com.suchorukov.tarouts.calc.Environment;
  * To change this template use File | Settings | File Templates.
  */
 public class Define extends Command {
-    @Override
-    public void execute(Environment env, String arg1, String arg2) {
-        env.map.put(arg1, decode(env, arg2));
+
+	public String mnemonic = "DEFINE";
+
+	@Override
+    public void execute(Environment env) {
+        env.map.put(next(env), nextFloat(env));
     }
 }
