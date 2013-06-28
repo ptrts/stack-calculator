@@ -10,8 +10,8 @@ public class Push extends Command {
 	}
 
 	@Override
-    public void execute(CommandProcessor pr) {
+	public void execute(CommandProcessor pr) {
 		Double arg = pr.nextParameterDouble();
 		pr.stack.push(arg);
-    }
+	}
 }

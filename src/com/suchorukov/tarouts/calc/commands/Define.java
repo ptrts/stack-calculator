@@ -10,9 +10,9 @@ public class Define extends Command {
 	}
 
 	@Override
-    public void execute(CommandProcessor pr) {
+	public void execute(CommandProcessor pr) {
 		String name = pr.nextParameter();
 		Double value = pr.nextParameterDouble();
-        pr.map.put(name, value);
-    }
+		pr.map.put(name, value);
+	}
 }

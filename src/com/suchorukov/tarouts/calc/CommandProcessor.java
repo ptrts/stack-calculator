@@ -4,8 +4,8 @@ import java.io.InputStream;
 import java.util.*;
 
 public class CommandProcessor {
-    public Map<String, Double> map;
-    public Scanner scanner;
+	public Map<String, Double> map;
+	public Scanner scanner;
 	public Stack<Double> stack;
 	public Scanner paramScanner;
 
@@ -47,9 +47,9 @@ public class CommandProcessor {
 	}
 
 	public CommandProcessor(InputStream in) {
-        map = new HashMap<>();
-        stack = new Stack();
+		map = new HashMap<>();
+		stack = new Stack();
 		commands = new HashMap<>();
 		this.scanner = new Scanner(in);
-    }
+	}
 }

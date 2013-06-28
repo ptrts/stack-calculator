@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 
 public class Calc {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 		CommandProcessor pr;
 
 		try {
@@ -30,8 +30,8 @@ public class Calc {
 
 			pr.calculate();
 
-		} catch (Exception e){
+		} catch (Exception e) {
 			System.out.println(e.toString());
 		}
-    }
+	}
 }

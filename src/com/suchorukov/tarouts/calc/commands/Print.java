@@ -10,8 +10,8 @@ public class Print extends Command {
 	}
 
 	@Override
-    public void execute(CommandProcessor pr) {
+	public void execute(CommandProcessor pr) {
 		Double arg = pr.stack.pop();
-        System.out.println(arg);
-    }
+		System.out.println(arg);
+	}
 }
