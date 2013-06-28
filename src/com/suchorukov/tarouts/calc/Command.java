@@ -1,14 +1,5 @@
 package com.suchorukov.tarouts.calc;
 
-import java.util.List;
-
-/**
- * Created with IntelliJ IDEA.
- * User: Pavel
- * Date: 26.06.13
- * Time: 21:03
- * To change this template use File | Settings | File Templates.
- */
 public abstract class Command {
 
 	public String mnemonic = null;
@@ -32,7 +23,5 @@ public abstract class Command {
 		return env.scanner.next();
 	}
 
-    public void execute(Environment env) {
-
-    }
+    public abstract void execute(Environment env);
 }
