@@ -4,11 +4,11 @@ import java.io.InputStream;
 import java.util.*;
 
 public class CommandProcessor {
-	public Map<String, Double> map;
-	public Scanner scanner;
+	public Map<String, Double> variables;
 	public Stack<Double> stack;
-	public Scanner paramScanner;
 
+	private Scanner scanner;
+	private Scanner paramScanner;
 	private Map<String, Command> commands;
 
 	public void registerCommand(Command command) {
@@ -28,7 +28,7 @@ public class CommandProcessor {
 	}
 
 	private Double decode(String str) {
-		Double f = map.get(str);
+		Double f = variables.get(str);
 
 		if (f == null) {
 			return Double.parseDouble(str);
@@ -47,7 +47,7 @@ public class CommandProcessor {
 	}
 
 	public CommandProcessor(InputStream in) {
-		map = new HashMap<>();
+		variables = new HashMap<>();
 		stack = new Stack();
 		commands = new HashMap<>();
 		this.scanner = new Scanner(in);

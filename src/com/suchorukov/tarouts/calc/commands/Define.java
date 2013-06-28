@@ -13,6 +13,6 @@ public class Define extends Command {
 	public void execute(CommandProcessor pr) {
 		String name = pr.nextParameter();
 		Double value = pr.nextParameterDouble();
-		pr.map.put(name, value);
+		pr.variables.put(name, value);
 	}
 }
