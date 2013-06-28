@@ -1,7 +1,7 @@
 package com.suchorukov.tarouts.calc.commands;
 
 import com.suchorukov.tarouts.calc.Command;
-import com.suchorukov.tarouts.calc.Environment;
+import com.suchorukov.tarouts.calc.CommandProcessor;
 
 public class Sqrt extends Command {
 
@@ -10,9 +10,9 @@ public class Sqrt extends Command {
 	}
 
 	@Override
-	public void execute(Environment env) {
-		Double arg = env.stack.pop();
+	public void execute(CommandProcessor pr) {
+		Double arg = pr.stack.pop();
 		Double result = Math.sqrt(arg);
-		env.stack.push(result);
+		pr.stack.push(result);
 	}
 }

@@ -1,7 +1,7 @@
 package com.suchorukov.tarouts.calc.commands;
 
 import com.suchorukov.tarouts.calc.Command;
-import com.suchorukov.tarouts.calc.Environment;
+import com.suchorukov.tarouts.calc.CommandProcessor;
 
 public class Push extends Command {
 
@@ -10,8 +10,8 @@ public class Push extends Command {
 	}
 
 	@Override
-    public void execute(Environment env) {
-		Double arg = nextDouble(env);
-		env.stack.push(arg);
+    public void execute(CommandProcessor pr) {
+		Double arg = pr.nextParameterDouble();
+		pr.stack.push(arg);
     }
 }

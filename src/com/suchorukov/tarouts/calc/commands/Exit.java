@@ -1,7 +1,7 @@
 package com.suchorukov.tarouts.calc.commands;
 
 import com.suchorukov.tarouts.calc.Command;
-import com.suchorukov.tarouts.calc.Environment;
+import com.suchorukov.tarouts.calc.CommandProcessor;
 
 public class Exit extends Command {
 
@@ -10,7 +10,7 @@ public class Exit extends Command {
 	}
 
 	@Override
-	public void execute(Environment env) {
+	public void execute(CommandProcessor pr) {
 		System.exit(0);
 	}
 }

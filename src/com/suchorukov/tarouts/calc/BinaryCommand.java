@@ -5,10 +5,10 @@ public abstract class BinaryCommand extends Command {
 	protected abstract Double calculate(Double arg1, Double arg2);
 
 	@Override
-	public void execute(Environment env) {
-		Double arg1 = env.stack.pop();
-		Double arg2 = env.stack.pop();
+	public void execute(CommandProcessor pr) {
+		Double arg2 = pr.stack.pop();
+		Double arg1 = pr.stack.pop();
 		Double result = calculate(arg1, arg2);
-		env.stack.push(result);
+		pr.stack.push(result);
 	}
 }

@@ -1,7 +1,7 @@
 package com.suchorukov.tarouts.calc.commands;
 
 import com.suchorukov.tarouts.calc.Command;
-import com.suchorukov.tarouts.calc.Environment;
+import com.suchorukov.tarouts.calc.CommandProcessor;
 
 public class Define extends Command {
 
@@ -10,9 +10,9 @@ public class Define extends Command {
 	}
 
 	@Override
-    public void execute(Environment env) {
-		String name = next(env);
-		Double value = nextDouble(env);
-        env.map.put(name, value);
+    public void execute(CommandProcessor pr) {
+		String name = pr.nextParameter();
+		Double value = pr.nextParameterDouble();
+        pr.map.put(name, value);
     }
 }

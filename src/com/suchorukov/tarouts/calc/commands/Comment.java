@@ -1,7 +1,7 @@
 package com.suchorukov.tarouts.calc.commands;
 
 import com.suchorukov.tarouts.calc.Command;
-import com.suchorukov.tarouts.calc.Environment;
+import com.suchorukov.tarouts.calc.CommandProcessor;
 
 public class Comment extends Command {
 
@@ -10,7 +10,6 @@ public class Comment extends Command {
 	}
 
 	@Override
-	public void execute(Environment env) {
-		// Нужно прочитать строчку до конца
+	public void execute(CommandProcessor pr) {
 	}
 }

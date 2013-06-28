@@ -1,7 +1,7 @@
 package com.suchorukov.tarouts.calc.commands;
 
 import com.suchorukov.tarouts.calc.Command;
-import com.suchorukov.tarouts.calc.Environment;
+import com.suchorukov.tarouts.calc.CommandProcessor;
 
 public class Print extends Command {
 
@@ -10,8 +10,8 @@ public class Print extends Command {
 	}
 
 	@Override
-    public void execute(Environment env) {
-		Double arg = env.stack.pop();
+    public void execute(CommandProcessor pr) {
+		Double arg = pr.stack.pop();
         System.out.println(arg);
     }
 }

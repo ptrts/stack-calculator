@@ -1,7 +1,7 @@
 # Переменные
-define a 1
-define b 2
-define c 3
+define a 2
+define b 6
+define c 4
 		# -b
 		push 0
 		push b
@@ -21,7 +21,6 @@ define c 3
 		sqrt
 	# -b + sqrt(b*b - 4ac)
 	+
-	
 	# 2a
 	push 2
 	push a
