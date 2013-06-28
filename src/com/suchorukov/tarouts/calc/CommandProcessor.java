@@ -1,7 +1,10 @@
 package com.suchorukov.tarouts.calc;
 
 import java.io.InputStream;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Stack;
 
 public class CommandProcessor {
 	public Map<String, Double> variables;
@@ -18,6 +21,7 @@ public class CommandProcessor {
 	public void calculate() {
 		while (scanner.hasNextLine()) {
 			String line = scanner.nextLine();
+
 
 			paramScanner = new Scanner(line);
 			String mnemonic = paramScanner.next();
