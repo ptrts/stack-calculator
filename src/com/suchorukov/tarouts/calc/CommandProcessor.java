@@ -1,6 +1,11 @@
 package com.suchorukov.tarouts.calc;
 
+import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.lang.reflect.Constructor;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -14,14 +19,38 @@ public class CommandProcessor {
 	private Scanner paramScanner;
 	private Map<String, Command> commands;
 
+	public static Command createCommandInstanceByClassName(String className) throws ReflectiveOperationException {
+		Class<?> commandClass = Class.forName(className);
+		Constructor<?> commandClassConstructor = commandClass.getConstructor(String.class);
+		Command command = (Command) commandClassConstructor.newInstance(new Object[0]);
+		return command;
+	}
+
 	public void registerCommand(Command command) {
 		commands.put(command.mnemonic.toUpperCase(), command);
+	}
+
+	public void loadCommands(URL resource) throws IOException, ReflectiveOperationException {
+		InputStream inStream = resource.openStream();
+		InputStreamReader inStreamReader = new InputStreamReader(inStream, "UTF-8");
+		BufferedReader br = new BufferedReader(inStreamReader);
+
+		while (true) {
+			String line = br.readLine();
+			if (line == null) {
+				break;
+			}
+			Scanner scanner = new Scanner(line);
+			String className = scanner.next();
+			Command command = createCommandInstanceByClassName(className);
+
+			registerCommand(command);
+		}
 	}
 
 	public void calculate() {
 		while (scanner.hasNextLine()) {
 			String line = scanner.nextLine();
-
 
 			paramScanner = new Scanner(line);
 			String mnemonic = paramScanner.next();
