@@ -5,8 +5,10 @@ import com.suchorukov.tarouts.calc.CommandProcessor;
 
 public class Define extends Command {
 
+	@Override
+	public String getMnemonic()
 	{
-		mnemonic = "DEFINE";
+		return "DEFINE";
 	}
 
 	@Override

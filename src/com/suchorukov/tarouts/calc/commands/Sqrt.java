@@ -5,8 +5,10 @@ import com.suchorukov.tarouts.calc.CommandProcessor;
 
 public class Sqrt extends Command {
 
+	@Override
+	public String getMnemonic()
 	{
-		mnemonic = "SQRT";
+		return "SQRT";
 	}
 
 	@Override

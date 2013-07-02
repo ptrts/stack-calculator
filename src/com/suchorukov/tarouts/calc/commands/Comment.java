@@ -5,8 +5,10 @@ import com.suchorukov.tarouts.calc.CommandProcessor;
 
 public class Comment extends Command {
 
+	@Override
+	public String getMnemonic()
 	{
-		mnemonic = "#";
+		return "#";
 	}
 
 	@Override

@@ -4,8 +4,10 @@ import com.suchorukov.tarouts.calc.BinaryCommand;
 
 public class Sub extends BinaryCommand {
 
+	@Override
+	public String getMnemonic()
 	{
-		mnemonic = "-";
+		return "-";
 	}
 
 	@Override

@@ -5,8 +5,10 @@ import com.suchorukov.tarouts.calc.CommandProcessor;
 
 public class Push extends Command {
 
+	@Override
+	public String getMnemonic()
 	{
-		mnemonic = "PUSH";
+		return "PUSH";
 	}
 
 	@Override

@@ -21,13 +21,13 @@ public class CommandProcessor {
 
 	public static Command createCommandInstanceByClassName(String className) throws ReflectiveOperationException {
 		Class<?> commandClass = Class.forName(className);
-		Constructor<?> commandClassConstructor = commandClass.getConstructor(String.class);
-		Command command = (Command) commandClassConstructor.newInstance(new Object[0]);
+		Constructor<?> commandClassConstructor = commandClass.getConstructor();
+		Command command = (Command) commandClassConstructor.newInstance();
 		return command;
 	}
 
 	public void registerCommand(Command command) {
-		commands.put(command.mnemonic.toUpperCase(), command);
+		commands.put(command.getMnemonic().toUpperCase(), command);
 	}
 
 	public void loadCommands(URL resource) throws IOException, ReflectiveOperationException {
