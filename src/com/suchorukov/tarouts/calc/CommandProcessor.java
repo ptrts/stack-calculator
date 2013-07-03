@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
@@ -26,7 +27,23 @@ public class CommandProcessor {
 		return command;
 	}
 
-	public void registerCommand(Command command) {
+	public void registerCommand(Command command) throws IllegalAccessException {
+
+		Class commandClass = command.getClass();
+		Field[] fields = commandClass.getFields();
+
+		for (int i = 0; i < fields.length; i++) {
+			Field field = fields[i];
+			MyResource annotation = field.getAnnotation(MyResource.class);
+			if (annotation != null) {
+				String value = annotation.value();
+				if ("STACK".equals(value)) {
+					field.setAccessible(true);
+					field.set(command, stack);
+				}
+			}
+		}
+
 		commands.put(command.getMnemonic().toUpperCase(), command);
 	}
 

@@ -6,8 +6,7 @@ import com.suchorukov.tarouts.calc.CommandProcessor;
 public class Exit extends Command {
 
 	@Override
-	public String getMnemonic()
-	{
+	public String getMnemonic() {
 		return "EXIT";
 	}
 

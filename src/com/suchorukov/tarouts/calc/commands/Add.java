@@ -5,8 +5,7 @@ import com.suchorukov.tarouts.calc.BinaryCommand;
 public class Add extends BinaryCommand {
 
 	@Override
-	public String getMnemonic()
-	{
+	public String getMnemonic() {
 		return "+";
 	}
 

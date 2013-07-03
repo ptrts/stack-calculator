@@ -6,15 +6,14 @@ import com.suchorukov.tarouts.calc.CommandProcessor;
 public class Sqrt extends Command {
 
 	@Override
-	public String getMnemonic()
-	{
+	public String getMnemonic() {
 		return "SQRT";
 	}
 
 	@Override
 	public void execute(CommandProcessor pr) {
-		Double arg = pr.stack.pop();
+		Double arg = stack.pop();
 		Double result = Math.sqrt(arg);
-		pr.stack.push(result);
+		stack.push(result);
 	}
 }

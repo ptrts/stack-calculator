@@ -6,9 +6,9 @@ public abstract class BinaryCommand extends Command {
 
 	@Override
 	public void execute(CommandProcessor pr) {
-		Double arg2 = pr.stack.pop();
-		Double arg1 = pr.stack.pop();
+		Double arg2 = stack.pop();
+		Double arg1 = stack.pop();
 		Double result = calculate(arg1, arg2);
-		pr.stack.push(result);
+		stack.push(result);
 	}
 }
