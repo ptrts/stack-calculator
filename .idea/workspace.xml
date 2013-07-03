@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.4322687" />
+  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b5b1fe26-ec4d-49a2-9df6-45fe8e50bebc" name="Default" comment="">
+=======
+    <list default="true" id="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/CommandProcessor.java" afterPath="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/CommandProcessor.java" />
+>>>>>>> 7191a3b... -
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="stack-calculator.iws" />
     <ignored path=".idea/workspace.xml" />
+<<<<<<< HEAD
     <file path="/Dummy.txt" changelist="b5b1fe26-ec4d-49a2-9df6-45fe8e50bebc" time="1372861240766" ignored="false" />
     <file path="/fragment.java" changelist="b5b1fe26-ec4d-49a2-9df6-45fe8e50bebc" time="1372860959094" ignored="false" />
     <file path="/.gitignore" changelist="b5b1fe26-ec4d-49a2-9df6-45fe8e50bebc" time="1372861343908" ignored="false" />
+=======
+    <file path="/Calc.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372594303319" ignored="false" />
+    <file path="/Command.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372857676407" ignored="false" />
+    <file path="/Add.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372857388492" ignored="false" />
+    <file path="/Define.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372856755620" ignored="false" />
+    <file path="/Environment.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372417104173" ignored="false" />
+    <file path="/Push.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372856709009" ignored="false" />
+    <file path="/Print.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372856718685" ignored="false" />
+    <file path="/Dummy.txt" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372858380250" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hello/src/com/suchorukov/tarouts/hello/Hello.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372302637058" ignored="false" />
+    <file path="/a.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372480652832" ignored="false" />
+    <file path="/sample.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372431965941" ignored="false" />
+    <file path="/Stack.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372305195931" ignored="false" />
+    <file path="/BinaryCommand.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372417288952" ignored="false" />
+    <file path="/Sib.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372317785763" ignored="false" />
+    <file path="/MUL.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372317849642" ignored="false" />
+    <file path="/Sqrt.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372856698914" ignored="false" />
+    <file path="/fragment.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372858093473" ignored="false" />
+    <file path="/Exit.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372856738307" ignored="false" />
+    <file path="/Comment.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372856765641" ignored="false" />
+    <file path="/CommandProcessor.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372857655448" ignored="false" />
+    <file path="/CalcTest.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372436523816" ignored="false" />
+    <file path="$PROJECT_DIR$/../birdz/src/Birdz.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372477522567" ignored="false" />
+    <file path="/Birdz.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372477464375" ignored="false" />
+    <file path="/IsCommand.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372482307662" ignored="false" />
+    <file path="/MyField.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372855955407" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Anotation.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372854974186" ignored="false" />
+    <file path="/Sub.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372856668794" ignored="false" />
+    <file path="/Mul.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372856729074" ignored="false" />
+    <file path="/Div.java" changelist="099a6eeb-6973-4cd7-b500-e1bdeb1f9d86" time="1372856746763" ignored="false" />
+>>>>>>> 7191a3b... -
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +109,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="CommandProcessor.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/CommandProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="4" selection-start="549" selection-end="549" vertical-scroll-proportion="0.1891473">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 7191a3b... -
       <file leaf-file-name="Define.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Define.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,7 +144,11 @@
       <file leaf-file-name="Div.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Div.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+=======
+            <state line="7" column="25" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+>>>>>>> 7191a3b... -
               <folding />
             </state>
           </provider>
@@ -110,7 +166,11 @@
       <file leaf-file-name="Mul.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Mul.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+=======
+            <state line="14" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+>>>>>>> 7191a3b... -
               <folding />
             </state>
           </provider>
@@ -146,7 +206,11 @@
       <file leaf-file-name="CommandProcessor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/CommandProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="45" column="8" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0">
+=======
+            <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+>>>>>>> 7191a3b... -
               <folding />
             </state>
           </provider>
@@ -416,16 +480,33 @@
       <created>1372861253812</created>
       <updated>1372861253812</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="3" />
+=======
+    <task id="LOCAL-00006" summary="-">
+      <created>1372687201243</created>
+      <updated>1372687201243</updated>
+    </task>
+    <task id="LOCAL-00007" summary="-">
+      <created>1372858397210</created>
+      <updated>1372858397210</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+>>>>>>> 7191a3b... -
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="5" width="1900" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33069083" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2618262" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 7191a3b... -
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -436,6 +517,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.6693092" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -443,6 +525,14 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524013" sideWeight="0.73817384" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33295584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> 7191a3b... -
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -581,6 +671,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/commands/Sub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
@@ -589,6 +680,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Command.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/BinaryCommand.java">
+>>>>>>> 7191a3b... -
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
           <folding />
@@ -597,7 +691,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/CommandProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="45" column="8" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0">
+=======
+        <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+>>>>>>> 7191a3b... -
           <folding />
         </state>
       </provider>
@@ -611,17 +709,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
+        <state line="14" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+>>>>>>> 7191a3b... -
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/suchorukov/tarouts/calc/CalcTest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+        <state line="22" column="4" selection-start="549" selection-end="549" vertical-scroll-proportion="0.1891473">
+          <folding />
+>>>>>>> 7191a3b... -
         </state>
       </provider>
     </entry>

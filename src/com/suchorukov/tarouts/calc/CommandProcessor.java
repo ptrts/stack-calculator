@@ -20,20 +20,19 @@ public class CommandProcessor {
 	private Scanner paramScanner;
 	private Map<String, Command> commands;
 
-	public static Command createCommandInstanceByClassName(String className) throws ReflectiveOperationException {
+	private static Command createCommandInstanceByClassName(String className) throws ReflectiveOperationException {
 		Class<?> commandClass = Class.forName(className);
 		Constructor<?> commandClassConstructor = commandClass.getConstructor();
 		Command command = (Command) commandClassConstructor.newInstance();
 		return command;
 	}
 
-	public void registerCommand(Command command) throws IllegalAccessException {
+	private void registerCommand(Command command) throws IllegalAccessException {
 
 		Class commandClass = command.getClass();
 		Field[] fields = commandClass.getFields();
 
-		for (int i = 0; i < fields.length; i++) {
-			Field field = fields[i];
+		for (Field field : fields) {
 			MyResource annotation = field.getAnnotation(MyResource.class);
 			if (annotation != null) {
 				String value = annotation.value();
@@ -98,7 +97,7 @@ public class CommandProcessor {
 
 	public CommandProcessor(InputStream in) {
 		variables = new HashMap<>();
-		stack = new Stack();
+		stack = new Stack<>();
 		commands = new HashMap<>();
 		this.scanner = new Scanner(in);
 	}
