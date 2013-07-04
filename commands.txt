@@ -1,0 +1,10 @@
+com.suchorukov.tarouts.calc.commands.Add
+com.suchorukov.tarouts.calc.commands.Comment
+com.suchorukov.tarouts.calc.commands.Define
+com.suchorukov.tarouts.calc.commands.Div
+com.suchorukov.tarouts.calc.commands.Exit
+com.suchorukov.tarouts.calc.commands.Mul
+com.suchorukov.tarouts.calc.commands.Print
+com.suchorukov.tarouts.calc.commands.Push
+com.suchorukov.tarouts.calc.commands.Sqrt
+com.suchorukov.tarouts.calc.commands.Sub
