@@ -11,7 +11,7 @@ public class Exit extends Command {
 	}
 
 	@Override
-	public void execute(CommandProcessor pr) {
+	public void execute() {
 		System.exit(0);
 	}
 }

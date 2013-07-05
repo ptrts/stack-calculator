@@ -16,9 +16,33 @@ public class CommandProcessor {
 	public Map<String, Double> variables;
 	public Stack<Double> stack;
 
-	private Scanner scanner;
-	private Scanner paramScanner;
+	private Scanner streamScanner;
+	private Scanner lineScanner;
 	private Map<String, Command> commands;
+
+	private ParameterSource parameterSource = new ParameterSource() {
+
+		private Double decode(String str) {
+			Double f = variables.get(str);
+
+			if (f == null) {
+				return Double.parseDouble(str);
+			} else {
+				return f;
+			}
+		}
+
+		@Override
+		public String nextString() {
+			return lineScanner.next();
+		}
+
+		@Override
+		public Double nextDouble() {
+			String arg = lineScanner.next();
+			return decode(arg);
+		}
+	};
 
 	private static Command createCommandInstanceByClassName(String className) throws ReflectiveOperationException {
 		Class<?> commandClass = Class.forName(className);
@@ -35,10 +59,20 @@ public class CommandProcessor {
 		for (Field field : fields) {
 			MyResource annotation = field.getAnnotation(MyResource.class);
 			if (annotation != null) {
+				field.setAccessible(true);
+
 				String value = annotation.value();
-				if ("STACK".equals(value)) {
-					field.setAccessible(true);
-					field.set(command, stack);
+
+				switch (value) {
+					case "STACK":
+						field.set(command, stack);
+						break;
+					case "VARIABLES":
+						field.set(command, variables);
+						break;
+					case "PARAMETER_SOURCE":
+						field.set(command, parameterSource);
+						break;
 				}
 			}
 		}
@@ -65,40 +99,21 @@ public class CommandProcessor {
 	}
 
 	public void calculate() {
-		while (scanner.hasNextLine()) {
-			String line = scanner.nextLine();
+		while (streamScanner.hasNextLine()) {
+			String line = streamScanner.nextLine();
 
-			paramScanner = new Scanner(line);
-			String mnemonic = paramScanner.next();
+			lineScanner = new Scanner(line);
+			String mnemonic = lineScanner.next();
 			mnemonic = mnemonic.toUpperCase();
 			Command command = commands.get(mnemonic);
-			command.execute(this);
+			command.execute();
 		}
-	}
-
-	private Double decode(String str) {
-		Double f = variables.get(str);
-
-		if (f == null) {
-			return Double.parseDouble(str);
-		} else {
-			return f;
-		}
-	}
-
-	public String nextParameter() {
-		return paramScanner.next();
-	}
-
-	public Double nextParameterDouble() {
-		String arg = paramScanner.next();
-		return decode(arg);
 	}
 
 	public CommandProcessor(InputStream in) {
 		variables = new HashMap<>();
 		stack = new Stack<>();
 		commands = new HashMap<>();
-		this.scanner = new Scanner(in);
+		this.streamScanner = new Scanner(in);
 	}
 }

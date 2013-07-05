@@ -2,8 +2,13 @@ package com.suchorukov.tarouts.calc.commands;
 
 import com.suchorukov.tarouts.calc.Command;
 import com.suchorukov.tarouts.calc.CommandProcessor;
+import com.suchorukov.tarouts.calc.MyResource;
+import com.suchorukov.tarouts.calc.ParameterSource;
 
 public class Push extends Command {
+
+	@MyResource(value = "PARAMETER_SOURCE")
+	public ParameterSource parameterSource;
 
 	@Override
 	public String getMnemonic() {
@@ -11,8 +16,8 @@ public class Push extends Command {
 	}
 
 	@Override
-	public void execute(CommandProcessor pr) {
-		Double arg = pr.nextParameterDouble();
-		pr.stack.push(arg);
+	public void execute() {
+		Double arg = parameterSource.nextDouble();
+		stack.push(arg);
 	}
 }

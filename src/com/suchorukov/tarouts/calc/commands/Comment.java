@@ -11,6 +11,6 @@ public class Comment extends Command {
 	}
 
 	@Override
-	public void execute(CommandProcessor pr) {
+	public void execute() {
 	}
 }

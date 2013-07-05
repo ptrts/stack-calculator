@@ -11,7 +11,7 @@ public class Sqrt extends Command {
 	}
 
 	@Override
-	public void execute(CommandProcessor pr) {
+	public void execute() {
 		Double arg = stack.pop();
 		Double result = Math.sqrt(arg);
 		stack.push(result);
